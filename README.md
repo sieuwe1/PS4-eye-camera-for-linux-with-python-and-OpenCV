@@ -2,6 +2,8 @@
 
 Needs !demo Gif!
 
+### I am still working on this REPO!
+
 ## Intro
 Since the launch of the Xbox Kinect, a lot of researchers have used it for robotics and computer vision projects because of its low price while showing great performance. Lately however the Xbox kinect hardware is getting outdated with its low resolution RGB camera and IR based depth perception system which is sensative for other IR light sources. This sensitivty to other IR light sources for examples renders the xbox kinect compelty useless for outdoor projects. Because of these limitations a replecement is needed. This is where the PS4 camera comes into play. 
 
@@ -17,11 +19,11 @@ To connect the PS4 camera to a computer first the cable needs to be modded. This
 For more detailed instructions you can visit:
 ! link to instrucables !
 
-To check if the cable is made correctly:
+- To check if the cable is made correctly:
 
-Type in a Terminal ```lsusb```
+- Type in a Terminal ```lsusb```
 
-This should show a device with the name ```OmniVision Technologies, Inc.```
+- This should show a device with the name ```OmniVision Technologies, Inc.```
 
 
 ### Software
@@ -29,12 +31,14 @@ Step 1:
 - First we need to install pysub.
 - ```sudo pip install --pre pyusb```
 
+
 Step 2:
 - Now we need to initialize the camera by uploading a modded firmware to the PS4 camera. 
 - ```cd Firmware_loader```
 - ```sudo python3 ps4eye_init.py```
 - Select your camera version by typing ```1``` or ```2```
 - The program should finish with ```PS4 camera firmware uploaded and device reset``` 
+
 
 Step 3: 
 - Now we need to know at what index the camera has been initalized. 
@@ -44,6 +48,7 @@ Step 3:
 - The number behind ```video``` will indicate the index. The lowest number of the two is the index we need. 
 - Go to ```View_RGB.py``` and ```View_Depth.py``` and change this line with the index number ```cap = cv2.VideoCapture(index number here)```
 
+
 Step 4: 
 Now we can view the Depth or RGB image from the camera. 
 
@@ -52,7 +57,8 @@ Now we can view the Depth or RGB image from the camera.
 - For RGB run ```python3 View_RGB.py```
 - For Depth run ```python3 View_Depth.py```
 
-If OpenCV gives a error try changing the index number from Step 3
+- If OpenCV gives a error try changing the index number from Step 3
+
 
 ### Camera specifications
 - RGB resolution 2x 1280x800
@@ -60,6 +66,6 @@ If OpenCV gives a error try changing the index number from Step 3
 - Interface USB 3.0
 
 ### References
-This project is a compilation of the amazing work of other people. Big thanks to everyone listed below:
-https://github.com/bigboss-ps3dev
-https://github.com/ps4eye
+- This project is a compilation of the amazing work of other people. Big thanks to everyone listed below:
+- https://github.com/bigboss-ps3dev
+- https://github.com/ps4eye
