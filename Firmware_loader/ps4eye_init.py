@@ -20,10 +20,6 @@ if dev is None:
     print('PS4 camera not found')
     sys.exit()
 
-# select which firmware to upload. 
-fw_version = input("What PS4 Camera version do you have. Type '1' for V1(CUH-ZEY1) or '2' for V2(CUH-ZEY2):  ")
-fw_version = int(fw_version)
-
 # set the active configuration. With no arguments, the first
 # configuration will be the active one
 dev.set_configuration()
@@ -40,19 +36,8 @@ def read_chunks(infile, chunk_size):
 chunk_size=512
 index=0x14
 value=0
-firmware = None
 
-if fw_version == 1:
-    print("loading firmware for V1")
-    firmware=open("firmware_V1.bin","rb")
-
-elif fw_version == 2:
-    print("loading firmware for V2")
-    firmware=open("firmware_V2.bin","rb")
-
-else:
-    print('wrong input please restart program and type correct input')
-    sys.exit()
+firmware=open("firmware_V2.bin","rb")
 
 # transfer 512b chunks of the firmware
 for chunk in read_chunks(firmware, chunk_size):

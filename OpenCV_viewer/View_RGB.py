@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 #cap = cv2.VideoCapture('http://root:root@192.168.70.52/mjpg/1/video.mjpg')
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(2)
 
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 3448)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 808)
@@ -20,6 +20,7 @@ def decode(frame):
 while(True):
 
     ret, frame = cap.read()
+    #cv2.normalize(frame, frame, 0, 255, cv2.NORM_MINMAX)
 
     left, right = decode(frame)
 
