@@ -1,6 +1,6 @@
 # PS4 camera: The cheap high resolution 3D stereo camera for OpenCV and Python!
 
-Needs !demo Gif!
+![](https://github.com/sieuwe1/PS4-eye-camera-for-linux-with-python-and-OpenCV/blob/main/demo.gif)
 
 ### I am still working on this REPO!
 
