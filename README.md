@@ -2,7 +2,7 @@
 
 ![](https://github.com/sieuwe1/PS4-eye-camera-for-linux-with-python-and-OpenCV/blob/main/demo.gif)
 
-### I am still working on this REPO!
+[![Demo](https://img.youtube.com/vi/c7CF6eDC0_A/0.jpg)](https://www.youtube.com/watch?v=c7CF6eDC0_A)
 
 ## Intro
 Since the launch of the Xbox Kinect, a lot of researchers have used it for robotics and computer vision projects because of its low price while showing great performance. Lately however the Xbox kinect hardware is getting outdated with its low resolution RGB camera and IR based depth perception system which is sensative for other IR light sources. This sensitivty to other IR light sources for examples renders the xbox kinect compelty useless for outdoor projects. Because of these limitations a replecement is needed. This is where the PS4 camera comes into play. 
@@ -17,7 +17,7 @@ This repo contains code for using both the PS4 V1(CUH-ZEY1) camera or PS4 V2(CUH
 To connect the PS4 camera to a computer first the cable needs to be modded. This is because the PS4 camera has a proprotery connector called the PS4 "AUX" connector. This is actually just a ordinary USB 3.0 cable with a special connector. Because this connector wont fit in a USB 3.0 port of your linux system we need to mod it. This needs to be done by cutting a USB 3.0 cable which has a USB 3.0 type A connector. Also the AUX port on PS4 camera needs to be cut off. After this the USB 3.0 type A connector needs to be solderd to the PS4 camera cable using the colors in the cable. 
 
 For more detailed instructions you can visit:
-! link to instrucables !
+https://www.instructables.com/HACK-PlayStation-4-Cam-Into-Cheap-3D-Depth-Camera-/
 
 - To check if the cable is made correctly:
 
