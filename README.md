@@ -61,9 +61,20 @@ Now we can view the Depth or RGB image from the camera.
 
 
 ### Camera specifications
-- RGB resolution 2x 1280x800
 - Latency 120~150ms
-- Interface USB 3.0
+- External Dimensions: Approx. 186mm x 27mm x 27mm (width x height x depth) 
+- Weight: Approx. 183g 
+- Video Pixel: (Maximum) 1280 x 800 pixel x 2 
+- Video Frame Rate: 1280x800 pixel @ 60fps 
+                     640x400 pixel @ 120fps 
+                     320x192 pixel @ 240fps 
+- Video Format: RAW YUV (uncompressed) 
+- Lens: Dual Lenses, F value/F2.0 fixed focus 
+- Capture Range: 30cm~ 
+- Field-of-View: 85 degrees 
+- Microphone: 4 Channel Microphone Array 
+- Connection Type: USB3.0
+- Cable Length: Approx. 2m
 
 ### References
 - This project is a compilation of the amazing work of other people. Big thanks to everyone listed below:
