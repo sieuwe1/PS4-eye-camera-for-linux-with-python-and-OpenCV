@@ -22,7 +22,7 @@ This repo contains code for using both the PS4 V1(CUH-ZEY1) camera or PS4 V2(CUH
 ## 2: Installation 
 
 ### Hardware
-To connect the PS4 camera to a computer first the cable needs to be modded. This is because the PS4 camera has a proprotery connector called the PS4 "AUX" connector. This is actually just a ordinary USB 3.0 cable with a special connector. Because this connector wont fit in a USB 3.0 port of your linux system we need to mod it. This needs to be done by cutting a USB 3.0 cable which has a USB 3.0 type A connector. Also the AUX port on PS4 camera needs to be cut off. After this the USB 3.0 type A connector needs to be solderd to the PS4 camera cable using the colors in the cable. 
+To connect the PS4 camera to a computer first the cable needs to be modded. This is because the PS4 camera has a proprotery connector called the PS4 "AUX" connector. This is actually just a ordinary USB 3.0 cable with a special connector. Because this connector wont fit in a USB 3.0 port of your linux system we need to mod it. This needs to be done by cutting a USB 3.0 cable which has a USB 3.0 type A connector. Also the AUX port on PS4 camera needs to be cut off. After this the USB 3.0 type A connector needs to be solderd to the PS4 camera cable using the colors in the cable. If you have the adapter that allows you to connect the camera to a PS5 using a standard USB 3 connector, this can be used as an alternative to modifying the camera.
 
 For more detailed instructions you can visit:
 https://www.instructables.com/HACK-PlayStation-4-Cam-Into-Cheap-3D-Depth-Camera-/
